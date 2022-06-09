@@ -4,7 +4,7 @@ import pandas as pd
 import pickle
 from sklearn.feature_extraction.text import CountVectorizer
 
-df = pd.read_csv("Data-for-countVectorizer.csv")
+df = pd.read_csv("https://bitbucket.org/mohit_7781/project/raw/a42f6bc511e1f4ca99a90f563371a18a114fd64a/Data-for-countVectorizer.csv")
 c = CountVectorizer(stop_words = 'english')
 X_c = c.fit_transform(df['Text'])
 print(X_c)
