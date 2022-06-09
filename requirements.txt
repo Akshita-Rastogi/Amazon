@@ -86,3 +86,4 @@ Werkzeug==2.1.2
 zipp==3.8.0
 gunicorn==20.1.0
 uvicorn==0.17.6
+unicorn==1.0.3
