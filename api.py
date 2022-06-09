@@ -13,7 +13,7 @@ print(X_c)
 app = FastAPI()
 
 
-@app.post("/")
+@app.get("/")
 async def root(item: str):
     
     input_txt = c.transform([item])
